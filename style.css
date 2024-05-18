@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #222;
   color: #fff;
@@ -10,12 +13,10 @@ body {
   border-bottom: #fff 1px solid;
 }
 .content {
-  box-sizing: border-box;
   padding: 3px 5px;
 }
 .content-header {
   background-color: #111;
-  box-sizing: border-box;
   padding: 3px 5px;
   z-index: 1;
 }
@@ -140,7 +141,6 @@ a {
 }
 .nav-bar {
   background-color: #111;
-  box-sizing: border-box;
   font-size: 0.9rem;
   padding: 3px;
 }
