@@ -88,7 +88,7 @@ hr {
 }
 
 .doc-content {
-  flex: 2 1 400px;
+  flex: 3 1 400px;
   padding: 5px;
 }
 
@@ -100,8 +100,10 @@ hr {
 
 .doc-info {
   border-left: #fff 1px solid;
-  flex: 1 2 100px;
+  flex: 1 2 120px;
   font-size: 0.8em;
+  margin-left: auto;
+  min-width: 120px;
   text-align: center;
 }
 
@@ -111,8 +113,9 @@ hr {
 
 .doc-nav {
   border-left: #666 1px solid;
-  flex: 1 2 100px;
+  flex: 1 2 120px;
   margin-left: auto;
+  min-width: 120px;
   padding: 10px;
 }
 
@@ -142,7 +145,7 @@ hr {
 }
 
 .title {
-  flex: 2 1 400px;
+  flex: 3 1 400px;
   padding: 5px;
 }
 
