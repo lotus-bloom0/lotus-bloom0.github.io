@@ -15,6 +15,7 @@ html, body {
   background-color: #222;
   height: 100%;
   width: 100%;
+  max-width: 100%;
 }
 
 body {
@@ -87,7 +88,7 @@ hr {
 }
 
 .doc-content {
-  flex: 2 1 70%;
+  flex: 2 1 400px;
   padding: 5px;
 }
 
@@ -99,7 +100,7 @@ hr {
 
 .doc-info {
   border-left: #fff 1px solid;
-  flex: 1 2 10rem;
+  flex: 1 2 100px;
   font-size: 0.8em;
   text-align: center;
 }
@@ -110,7 +111,7 @@ hr {
 
 .doc-nav {
   border-left: #666 1px solid;
-  flex: 1 2 10rem;
+  flex: 1 2 100px;
   margin-left: auto;
   padding: 10px;
 }
@@ -141,7 +142,7 @@ hr {
 }
 
 .title {
-  flex: 2 1 70%;
+  flex: 2 1 400px;
   padding: 5px;
 }
 
