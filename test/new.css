@@ -28,7 +28,7 @@ footer {
   border-top: #fff 1px solid;
   display: flex;
   flex-wrap: wrap;
-  padding: 3px;
+  padding: 3px 10px;
   width: 100%;
 }
 
