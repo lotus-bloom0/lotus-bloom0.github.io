@@ -108,6 +108,10 @@ hr {
   padding: 5px;
 }
 
+.doc-header > p {
+  font-size: 0.85em;
+}
+
 .doc-info {
   border: #fff 1px solid;
   border-right: none;
