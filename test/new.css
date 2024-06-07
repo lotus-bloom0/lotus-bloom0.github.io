@@ -95,9 +95,7 @@ hr {
 }
 
 .doc {
-  border-right: #fff 1px solid;
   flex: 8.25 0 0;
-  margin-right: 3px;
 }
 
 .doc-body {
@@ -114,6 +112,8 @@ hr {
   border: #fff 1px solid;
   border-right: none;
   font-size: 0.8em;
+  margin-top: 3px;
+  margin-left: 3px;
   text-align: center;
 }
 
@@ -122,15 +122,16 @@ hr {
 }
 
 .doc-meta {
+  border-left: #fff 1px solid;
   flex: 1.75 0 0;
   margin-left: auto;
-  margin-top: 3px;
 }
 
 .doc-nav {
   border-left: #666 1px solid;
   font-size: 0.9em;
-  margin-top: 5px;
+  margin-top: 3px;
+  margin-left: 3px;
   padding: 10px;
   position: fixed;
 }
