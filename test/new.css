@@ -23,6 +23,20 @@ body {
   font-family: "DejaVu Sans Mono", monospace;
 }
 
+footer {
+  align-items: center;
+  border-top: #fff 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3px;
+  width: 100%;
+}
+
+footer > img {
+  flex: 0;
+  justify-self: flex-start;
+}
+
 h1 {
   font-size: 2.2em;
   margin: 0.7em 0;
@@ -74,8 +88,10 @@ hr {
 }
 
 .contact {
+  flex: 1;
   font-size: 0.8em;
-  text-align: center;
+  text-align: right;
+  margin-left: auto;
 }
 
 .doc {
@@ -139,6 +155,7 @@ hr {
 .site {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 
