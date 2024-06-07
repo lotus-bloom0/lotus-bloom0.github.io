@@ -23,10 +23,6 @@ body {
   font-family: "DejaVu Sans Mono", monospace;
 }
 
-footer > p {
-  margin: 0;
-}
-
 h1 {
   font-size: 2.2em;
   margin: 0.7em 0;
@@ -82,28 +78,26 @@ hr {
   text-align: center;
 }
 
-.doc-body {
-  display: flex;
-  flex: 1;
+.doc {
+  border-right: #fff 1px solid;
+  flex: 8.25 0 0;
+  margin-right: 3px;
 }
 
-.doc-content {
-  flex: 3 1 400px;
+.doc-body {
   padding: 5px;
 }
 
 .doc-header {
   background-color: #000;
   border-bottom: #fff 1px solid;
-  display: flex;
+  padding: 5px;
 }
 
 .doc-info {
-  border-left: #fff 1px solid;
-  flex: 1 2 120px;
+  border: #fff 1px solid;
+  border-right: none;
   font-size: 0.8em;
-  margin-left: auto;
-  min-width: 120px;
   text-align: center;
 }
 
@@ -111,12 +105,18 @@ hr {
   margin: 3px 15px;
 }
 
+.doc-meta {
+  flex: 1.75 0 0;
+  margin-left: auto;
+  margin-top: 3px;
+}
+
 .doc-nav {
   border-left: #666 1px solid;
-  flex: 1 2 120px;
-  margin-left: auto;
-  min-width: 120px;
+  font-size: 0.9em;
+  margin-top: 5px;
   padding: 10px;
+  position: fixed;
 }
 
 .doc-nav > ol,
@@ -128,8 +128,6 @@ hr {
 
 .main {
   display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 .nav {
@@ -141,12 +139,6 @@ hr {
 .site {
   display: flex;
   flex-direction: column;
-  height: 100%;
-}
-
-.title {
-  flex: 3 1 400px;
-  padding: 5px;
 }
 
 
@@ -176,7 +168,7 @@ hr {
 .dropbtn,
 .no-dropbtn {
   font-family: "DejaVu Sans Mono", monospace;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   padding: 0.3rem 1rem;
 }
 .dropdown-items {
