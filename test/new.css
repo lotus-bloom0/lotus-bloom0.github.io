@@ -191,7 +191,7 @@ hr {
 .dropbtn,
 .no-dropbtn {
   font-family: "DejaVu Sans Mono", monospace;
-  font-size: 0.9em;
+  font-size: 1em;
   padding: 0.3rem 1rem;
 }
 .dropdown-items {
