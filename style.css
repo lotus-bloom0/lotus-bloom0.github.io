@@ -15,7 +15,6 @@ html, body {
   background-color: #222;
   height: 100%;
   width: 100%;
-  max-width: 100%;
 }
 
 body {
@@ -100,7 +99,7 @@ li {
 }
 
 .doc {
-  flex: 8.25 0 0;
+  flex: 1 1 85%;
 }
 
 .doc-body {
@@ -132,8 +131,7 @@ li {
 
 .doc-meta {
   border-left: #fff 1px solid;
-  flex: 1.75 0 0;
-  margin-left: auto;
+  flex: 1 1 15%;
 }
 
 .doc-toc {
@@ -177,7 +175,7 @@ li {
 .site {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 100%;
 }
 
 
