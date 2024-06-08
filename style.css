@@ -87,6 +87,11 @@ hr {
   color: #fff;
 }
 
+li {
+  padding: 2px 0;
+  margin: 0;
+}
+
 .contact {
   flex: 1;
   font-size: 0.8em;
