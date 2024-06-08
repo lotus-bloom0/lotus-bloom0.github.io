@@ -163,6 +163,16 @@ li {
   padding: 5px;
 }
 
+.pinned {
+  float: right;
+  font-size: 1.25em;
+  margin: 10px;
+}
+
+.post-date {
+  text-align: right;
+}
+
 .site {
   display: flex;
   flex-direction: column;
