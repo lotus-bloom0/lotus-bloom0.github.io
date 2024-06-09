@@ -42,23 +42,23 @@ h1 {
 }
 h2 {
   font-size: 1.5em;
-  margin: 0.85em 0;
+  margin: 0.90em 0;
 }
 h3 {
   font-size: 1.3em;
-  margin: 1em 0;
+  margin: 1.1em 0;
 }
 h4 {
   font-size: 1.2em;
-  margin: 1.15em 0;
+  margin: 1.25em 0;
 }
 h5 {
   font-size: 1.1em;
-  margin: 1.3em 0;
+  margin: 1.4em 0;
 }
 h6 {
   font-size: 1em;
-  margin: 1.4em 0;
+  margin: 1.5em 0;
 }
 
 header {
@@ -101,6 +101,11 @@ ul {
   list-style:circle;
 }
 
+ul.short,
+ol.short {
+  columns: 2;
+}
+
 .contact {
   flex: 1;
   font-size: 0.8em;
@@ -117,7 +122,7 @@ ul {
 }
 
 .doc {
-  flex: 1 1 85%;
+  flex: 1 1 80%;
 }
 
 .doc-body {
@@ -150,7 +155,7 @@ ul {
 
 .doc-meta {
   border-left: #fff 1px solid;
-  flex: 1 1 15%;
+  flex: 1 1 20%;
 }
 
 .doc-toc {
@@ -163,8 +168,8 @@ ul {
   top: 3px;
 }
 
-.doc-toc > ol,
-.doc-toc > ul {
+.doc-toc ol,
+.doc-toc ul {
   margin: 0.7em;
   list-style-type: none;
   padding: 0;
