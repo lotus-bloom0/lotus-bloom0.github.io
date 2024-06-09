@@ -10,7 +10,8 @@ a:hover {
   color: #fff;
 }
 
-html, body {
+html,
+body {
   color: #fff;
   background-color: #222;
   height: 100%;
@@ -96,6 +97,10 @@ nav {
   padding: 3px;
 }
 
+section {
+  margin-bottom: 2rem;
+}
+
 ul {
   list-style:circle;
 }
@@ -127,6 +132,11 @@ ol.short {
 .doc-body {
   border-top: #fff 1px solid;
   padding: 5px;
+}
+
+.doc-body ul,
+.doc-body ol {
+    padding-right: 5%;
 }
 
 .doc-header {
