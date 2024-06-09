@@ -62,7 +62,6 @@ h6 {
 }
 
 header {
-  border-bottom: #fff 1px solid;
   text-align: center;
   background-image: url(/img/lotus.bloom.png);
   background-repeat: no-repeat;
@@ -93,7 +92,7 @@ li {
 
 nav {
   background-color: #000;
-  border-bottom: #fff 1px solid;
+  border-top: #fff 1px solid;
   padding: 3px;
 }
 
@@ -126,12 +125,13 @@ ol.short {
 }
 
 .doc-body {
+  border-top: #fff 1px solid;
   padding: 5px;
 }
 
 .doc-header {
   background-color: #000;
-  border-bottom: #fff 1px solid;
+  border-top: #fff 1px solid;
   padding: 5px;
 }
 
@@ -155,6 +155,7 @@ ol.short {
 
 .doc-meta {
   border-left: #fff 1px solid;
+  border-top: #fff 1px solid;
   flex: 1 1 20%;
 }
 
@@ -190,6 +191,14 @@ ol.short {
   flex-direction: column;
   min-width: 125px;
   z-index: 1;
+}
+
+.infinite-scroll {
+  border-bottom: #fff 1px solid;
+}
+
+.infinite-scroll:last-of-type {
+  border: 0;
 }
 
 .main {
