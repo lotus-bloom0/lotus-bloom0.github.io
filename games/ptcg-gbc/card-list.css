@@ -1,0 +1,102 @@
+@media (width </* 660px*/ 780px) {
+
+  .basic-energy td:empty,
+  .trainer td:empty{
+    display: none;
+  }
+
+  .note {
+    display: none;
+  }
+
+  td {
+    display: block;
+    font-size: 0.9em;
+    padding: 0.4rem;
+  }
+
+  td::before {
+    content: attr(data-cell) ": ";
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  td:first-child {
+    padding-top: 1rem;
+  }
+
+  td:last-child,
+  .basic-energy td:nth-child(5) {
+    padding-bottom: 1rem;
+  }
+
+  th {
+    display: none;
+  }
+
+  .tooltiptext {
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+  }
+
+}
+
+@media (width >=/* 660px*/ 780px) {
+
+  td,
+  th {
+  padding: 0.15rem;
+  }
+
+  /*Card Details*/
+  td:nth-child(11) {
+    width: 50%;
+  }
+
+  .tooltip {
+    border-bottom: thin #fff dotted;
+    position: relative;
+    font-weight: bold;
+  }
+
+  .tooltiptext {
+    background-color: #101010;
+    border: thin #fff solid;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    right: 105%; 
+    top: -5px;
+    visibility: hidden;
+    width: 40ch;
+    z-index: 2;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+}
+
+.energy {
+  height: 1em;
+}
+
+table {
+  background: #303030;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #101010;
+  text-align: left;
+}
+
+.tooltiptext {
+  padding: 0.5em;
+}
+
+tr:nth-of-type(2n) {
+  background: rgba(0, 0, 0, 0.2);
+}
