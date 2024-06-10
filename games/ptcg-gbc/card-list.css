@@ -1,0 +1,130 @@
+.energy {
+  height: 1rem;
+}
+
+table {
+  background: #303030;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.note {
+  background-color: #101010;
+  border: #fff 1px solid;
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+.note p {
+  padding: 0;
+  margin: 0;
+}
+
+td,
+th {
+  padding: 3px;
+}
+
+th {
+  background-color: #101010;
+  text-align: left;
+}
+
+.tooltip {
+  border-bottom: thin #fff dotted;
+  position: relative;
+  font-weight: bold;
+}
+
+tr:nth-of-type(2n) {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+@media ( width >= 720px) {
+  th:nth-of-type(2n),
+  td:nth-of-type(2n) {
+    border-right: #222 2px solid;
+    border-left: #222 2px solid;
+  }
+  .tooltiptext {
+    background-color: #101010;
+    border: thin #fff solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    right: 105%; 
+    top: -5px;
+    visibility: hidden;
+    width: 40ch;
+    z-index: 2;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+}
+
+@media ( width < 860px ) {
+  td:first-child,
+  td:nth-child(3),
+  th:first-child,
+  th:nth-child(3) {
+    display: none;
+  }
+}
+
+@media ( width < 780px ) {
+  .energy {
+    height: 0.85rem;
+  }
+  table {
+    font-size: 0.75rem;
+  }
+}
+
+@media ( width < 720px ) {
+  .energy {
+    height: 1rem;
+  }
+  .basic-energy td:empty,
+  .trainer td:empty{
+    display: none;
+  }
+  .note {
+    display: none;
+  }
+  table {
+    font-size: 0.9rem;
+  }
+  td {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  td::before {
+    content: attr(data-cell) ": ";
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  td:first-child,
+  td:nth-child(3) {
+    display: block;
+  }
+  td:first-child {
+    padding-top: 20px;
+  }
+  td:last-child,
+  .basic-energy td:nth-child(5) {
+    padding-bottom: 20px;
+  }
+  th {
+    display: none;
+  }
+  .tooltiptext {
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    font-weight: normal;
+    padding: 10px;
+  }
+}
