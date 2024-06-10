@@ -273,7 +273,18 @@ ol.short {
 }
 
 @media (width < 600px) {
+  .doc-info {
+    border: #fff 2px solid;
+    border-bottom: #fff 1px solid;
+    margin: 0px;
+  }
   .doc-meta {
+    border: 0;
+  }
+  .doc-toc {
     display: none;
+  }
+  .main {
+    flex-direction: column;
   }
 }
