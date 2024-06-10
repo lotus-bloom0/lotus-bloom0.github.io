@@ -87,14 +87,18 @@ hr {
 }
 
 li {
-  padding: 3px 0;
-  margin: 0;
+  margin: 4px 0;
 }
 
 nav {
   background-color: #000;
   border-top: #fff 1px solid;
   padding: 3px;
+}
+
+p.note {
+  margin: 3px;
+  font-size: 0.8rem;
 }
 
 section {
@@ -176,7 +180,7 @@ ol.short {
 
 .doc-toc ol,
 .doc-toc ul {
-  margin: 0.7em;
+  margin: 4px 0.7em;
   list-style-type: none;
   padding: 0;
 }
