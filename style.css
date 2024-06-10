@@ -203,6 +203,10 @@ ol.short {
   z-index: 1;
 }
 
+.img-large {
+  max-width: 100%;
+}
+
 .infinite-scroll {
   border-bottom: #fff 1px solid;
 }
@@ -266,4 +270,10 @@ ol.short {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+}
+
+@media (width < 600px) {
+  .doc-meta {
+    display: none;
+  }
 }
