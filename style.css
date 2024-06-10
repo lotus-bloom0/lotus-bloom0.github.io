@@ -222,7 +222,6 @@ ol.short {
 .nav-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 3px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -230,6 +229,7 @@ ol.short {
 
 .nav-item {
   border: transparent 1px solid;
+  margin: 0;
   padding: 5px;
 }
 
