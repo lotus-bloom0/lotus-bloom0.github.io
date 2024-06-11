@@ -1,0 +1,4 @@
+Step 4:
+- create 2 sub sections; "Windows Update & Activation" and "Device Driver Checks"
+- add section for device driver checks, and how to install them though Windows update if needed.
+
