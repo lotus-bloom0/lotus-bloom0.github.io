@@ -8,7 +8,7 @@ I use it to host various pages that I’ve made as tutorials or informational wr
 
 ### Blog Posts, Tutorials, and Write-ups
 
-- 
+- How To De-Bloat Windows 10 and 11
 
 ### Video Game Bookmarks and Guides
 
