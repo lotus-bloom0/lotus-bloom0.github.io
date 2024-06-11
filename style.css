@@ -202,6 +202,10 @@ ol.short {
   z-index: 1;
 }
 
+.dropdwn:nth-of-type(2n) {
+  margin: 0 5px;
+}
+
 .img-large {
   max-width: 100%;
 }
