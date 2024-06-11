@@ -10,7 +10,8 @@ I use it to host various pages that I’ve made as tutorials or informational wr
 
 - 
 
-### Video Game Bookmarks and Pages
+### Video Game Bookmarks and Guides
 
 - Final Fantasy XIV Bookmark Collection
 - Pokémon Series Games Bookmark Collection
+- Pokémon Trading Card Game (2000) Card List
