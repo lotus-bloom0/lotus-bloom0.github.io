@@ -1,5 +1,8 @@
+- Update document to reflect the newest edition of CTT's winutl.
+- Test MicroWin
+
 Step 1:
-- Microsoft will not let you download the windows ISO directly if they detect that you are accessing the page on a Windows installation. If you are already using Windows then you will be provided the microsoft official media creation tool. which will allow you to create the installation media, or download the ISO that you can use with Rufus. Helpful for people who are not confident in what it is that they are doing. Personally, I find this unnecessary, and just more data collection from Microsoft. If you do not want to use the media creation tool you will need to download the ISO from another operating system, or spoof your operating system from within your browsers dev tools (instructions for chromium browsers): https://stackoverflow.com/questions/25562286/is-possible-to-spoof-user-agent-and-os-with-chrome
+- Microsoft will not let you download the windows ISO directly if they detect that you are accessing the page on a current Windows installation. If you are already using Windows then you will be provided the microsoft official media creation tool. which will allow you to create the installation media, or download the ISO that you can use with Rufus. Helpful for people who are not confident in what it is that they are doing. Personally, I find this unnecessary, and just more data collection from Microsoft. If you do not want to use the media creation tool you will need to download the ISO from another operating system, or spoof your operating system from within your browser's dev tools (instructions for chromium browsers): https://stackoverflow.com/questions/25562286/is-possible-to-spoof-user-agent-and-os-with-chrome
 
 Step 4:
 - create 2 sub sections; "Windows Update & Activation" and "Device Driver Checks"
