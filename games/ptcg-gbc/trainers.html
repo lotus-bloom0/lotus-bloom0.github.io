@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="trainers.css">
   <link rel="icon" href="/img/favi-white.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,31 +44,133 @@
       <div class="main">
         <div class="doc">
           <div class="doc-header">
-            <h2>Pokemon Trainer Data</h2>
+            <h2>Pokémon Trading Card Game (GBC) - Trainer Information</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque illum eius, accusamus distinctio aliquid possimus quis nam? Quas voluptatibus iste eveniet quam autem. Iste deleniti incidunt qui labore ullam quam. 
+              A heavy work-in-progress.
             </p>
           </div>
           <div class="doc-body">
-            <h3>Heading 3</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quia est nisi voluptas provident inventore voluptates itaque molestias, sit laborum accusantium rerum, molestiae beatae accusamus saepe maxime cupiditate quod cumque.
+              A collection of data for the trainers in the game. Primary goal is to document each trainer's pack reward, and then potentially expand from there to include other information; such as deck lists. The locations and trainer names are in alphabetical order.
             </p>
-            <h4>Heading 4</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem exercitationem reiciendis fuga dolorem quaerat eius soluta et cumque necessitatibus, nihil iste! Reprehenderit esse asperiores sapiente officiis pariatur ad harum dolorem. Soluta quasi porro nihil consequatur, tempora inventore expedita iste quo magnam amet laudantium iusto animi quae quod neque exercitationem ullam.
-            </p>
-            <h5>Heading 5</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maiores dicta eligendi. Consequuntur dignissimos sunt ut temporibus illum. Pariatur ullam sequi sed corporis quae nisi saepe veritatis sunt excepturi repudiandae!
-            </p>
-            <h6>Heading 6</h6>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi laboriosam magnam architecto corrupti aspernatur quidem reiciendis hic, tempore nesciunt alias sint, minus earum fuga eos! Consectetur nisi nihil libero reprehenderit dignissimos. Expedita eveniet, distinctio velit nemo fuga qui. Quisquam non debitis aut odio minima in itaque quas, nam nihil recusandae.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti earum beatae, illum aliquid laudantium dolor dolorem quam repellendus eveniet unde iste adipisci aliquam esse architecto totam veniam ipsa voluptas!
-            </p>
+
+            <!-- LIGHTNING CLUB -->
+            <section>
+              <h3 id="lightning-club">Lightning Club</h3>
+              <div class="trainer-table">
+                <table>
+                  <tr>
+                    <th data-cell="name">NPC Name</th>
+                    <th data-cell="pack">Pack Reward</th>
+                    <th data-cell="notes">Notes</th>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">Brandon</td>
+                    <td data-cell="pack">Colosseum</td>
+                    <td data-cell="notes">top-right trainer</td>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">Isaac</td>
+                    <td data-cell="pack">Mystery</td>
+                    <td data-cell="notes">top-center trainer; Lightning Club leader</td>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">Jennifer</td>
+                    <td data-cell="pack">Mystery</td>
+                    <td data-cell="notes">central trainer</td>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">Nicholas</td>
+                    <td data-cell="pack">Colosseum</td>
+                    <td data-cell="notes">top-left trainer</td>
+                  </tr>
+                </table>
+              </div>
+            </section>
+
+            <!-- MASON LABORATORY -->
+            <section>
+              <h3 id="mason-lab">Mason Laboratory</h3>
+              <div class="trainer-table">
+                <table>
+                  <tr>
+                    <th data-cell="name">NPC Name</th>
+                    <th data-cell="pack">Pack Reward</th>
+                    <th data-cell="notes">Notes</th>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">Aaron</td>
+                    <td data-cell="pack">Energies</td>
+                    <td data-cell="notes">side room, center NPC</td>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">Sam</td>
+                    <td data-cell="pack">Energies</td>
+                    <td data-cell="notes">left side of table; replay tutorial, no handrails</td>
+                  </tr>
+                </table>
+              </div>
+            </section>
+
+            <!-- ROCK CLUB -->
+            <section>
+              <h3 id="rock-club">Rock Club</h3>
+              <div class="trainer-table">
+                <table>
+                  <tr>
+                    <th data-cell="name">NPC Name</th>
+                    <th data-cell="pack">Pack Reward</th>
+                    <th data-cell="notes">Notes</th>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">Andrew</td>
+                    <td data-cell="pack">Colosseum</td>
+                    <td data-cell="notes">bottom-left trainer</td>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">Gene</td>
+                    <td data-cell="pack">Mystery</td>
+                    <td data-cell="notes">north-most trainer; Rock Club leader</td>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">Matthew</td>
+                    <td data-cell="pack">Mystery</td>
+                    <td data-cell="notes">break room table, left side</td>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">Ryan</td>
+                    <td data-cell="pack">Evolution</td>
+                    <td data-cell="notes">left-center trainer</td>
+                  </tr>
+                </table>
+              </div>
+            </section>
+
+            <!-- TEMPLATE CLUB -->
+            <!--
+            <section>
+              <h3 id="[TEMPLATE]-club">[TEMPLATE] Club</h3>
+              <div class="trainer-table">
+                <table>
+                  <tr>
+                    <th data-cell="name">NPC Name</th>
+                    <th data-cell="pack">Pack Reward</th>
+                    <th data-cell="notes">Notes</th>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">[NAME]</td>
+                    <td data-cell="pack">[PACK]</td>
+                    <td data-cell="notes">[NOTES]</td>
+                  </tr>
+                  <tr>
+                    <td data-cell="name">[NAME]</td>
+                    <td data-cell="pack">[PACK]</td>
+                    <td data-cell="notes">[NOTES]</td>
+                  </tr>
+                </table>
+              </div>
+            </section>
+            -->
             
           </div>
         </div>
@@ -91,7 +194,7 @@
           <div class="doc-toc">
             Jump to:
             <ol>
-              <li><a href="#">Link 1</a></li>
+              <li><a href="#lightning-club">Lightning Club</a></li>
               <li><a href="#">Link 2</a></li>
               <li><a href="#">Link 3</a></li>
               <li><a href="#">Link 4</a></li>
