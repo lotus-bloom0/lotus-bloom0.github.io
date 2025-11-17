@@ -16,5 +16,5 @@ I use it to host various pages that I’ve made as tutorials or informational wr
 - Pokémon Series Games Bookmark Collection
 - Pokémon Trading Card Game (2000) Guides
   - Card List
-  - Trainer Information
   - Promo Acquisition Guide
+  - Trainer Information
