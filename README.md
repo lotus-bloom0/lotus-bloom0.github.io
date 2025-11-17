@@ -14,4 +14,7 @@ I use it to host various pages that I’ve made as tutorials or informational wr
 
 - Final Fantasy XIV Bookmark Collection
 - Pokémon Series Games Bookmark Collection
-- Pokémon Trading Card Game (2000) Card List
+- Pokémon Trading Card Game (2000) Guides
+  - Card List
+  - Trainer Information
+  - Promo Acquisition Guide
