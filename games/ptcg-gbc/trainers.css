@@ -1,6 +1,7 @@
 table {
   background: #303030;
   border-collapse: collapse;
+  table-layout: fixed;
   width: 100%;
 }
 
