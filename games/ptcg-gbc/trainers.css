@@ -11,7 +11,7 @@ td {
 
 td,
 th {
-  padding: 5px 3px;
+  padding: 0.45rem 0.3rem;
 }
 
 th:nth-of-type(2n),
@@ -26,5 +26,5 @@ th {
 }
 
 tr:nth-of-type(2n) {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.3);
 }
