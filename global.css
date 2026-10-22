@@ -91,11 +91,12 @@ nav > a:active {
 
 section {
   border-bottom: #fff 2px solid;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
 }
 
 section:last-of-type {
   border: none;
+  padding-bottom: 1em;
 }
 
 /* ############### */
@@ -131,6 +132,10 @@ ul.short {
   padding: 0px 10px 10px 10px;
   max-width: 75em;
   width: 100%;
+}
+
+span.small {
+  font-size: 0.8em;
 }
 
 /* ############## */

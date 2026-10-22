@@ -1,101 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/global.css">
   <link rel="icon" href="/img/favi-white.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Software Tutorials | lotus.bloom</title>
+  <title>Software Setup Guides || lotus.bloom</title>
 </head>
-  <body>
-    <div class="site">
-      <header>
-        <a href="/index.html">
-          <h1>lotus.bloom</h1>
-        </a>
-      </header>
-
-      <nav>
-        <ul class="nav-list">
-          <!-- <div class="dropdwn">
-            <li class="nav-item"><a href="#">Dropdown</a></li>
-            <ul>
-              <li class="nav-item"><a href="#">Item 1</a></li>
-              <li class="nav-item"><a href="#">Item 2</a></li>
-            </ul>
-          </div> -->
-          <div class="dropdwn">
-            <li class="nav-item"><a href="/games/index.html">Game Guides</a></li>
-          </div>
-          <div class="dropdwn">
-            <li class="nav-item"><a href="/tutorials/index.html">Tutorials</a></li>
-          </div>
-        </ul>
-      </nav>
-
-      <noscript style="border-bottom: #fff 1px solid;border-left: #6900ff 5px solid; border-right: #6900ff 5px solid; background-color: #000; padding: 5px; font-size: 0.9em;">
-        <p>
-          <em>Warning:</em><br>
-          It would appear Javascript is not available. Some pages use a small amount of script to implement collapsable sections, reducing the amount of scrolling needed to navigate the page. You will not be able to view the information contained within these sections without enabling Javascript.
-        </p>
-      </noscript>
-
-      <div class="main">
-        <div class="doc">
-          <div class="doc-header">
-            <h2>Software Tutorials</h2>
-          </div>
-          <div class="doc-body">
-            <p>
-              As many of you will be familiar with, there's always that one go-to family member for basic tech support. For my family that person is me, so I plan to make blog-style posts that I can re-use them if someone else needs help with the same thing later on. Putting them online has the added benefit of making them available from anywhere, and for anyone to link their own family to.
-            </p>
-            <p>I hope that you find them useful, and informative.</p>
-            <ul>
-              <li><a href="debloat-windows.html" title="View Tutorial: How to De-Bloat Windows 10 and 11">
-                How to De-Bloat Windows 10 and 11
-              </a></li>
-            </ul>
-            
-          </div>
-        </div>
-
-        <!-- UPDATE LAST EDITED DATE -->
-        <!-- UPDATE DOC LINKS TO NEW EDIT DATE -->
-        <div class="doc-meta">
-          <div class="doc-info">
-            <p>Document Info:</p>
-            <p class="timestamp">
-              published: 2024/06/11<br>
-              <!-- last edited: YYYY/MM/DD  -->
-            </p>
-          </div>
-          <!-- <div class="doc-toc">
-            Jump to:
-            <ol>
-              <li><a href="#">Link 1</a></li>
-              <li><a href="#">Link 2</a></li>
-              <li><a href="#">Link 3</a></li>
-              <li><a href="#">Link 4</a></li>
-            </ol>
-            <a href="#top"> Back to top</a>
-          </div> -->
-        </div>
+<body>
+  <div class="site">
+    <header>
+      <div id="header-img">
+        <a href="/index.html"><h1>lotus.bloom</h1></a>
       </div>
-      
-      <!-- CONTACT INFORMATION -->
-      <footer>
-        <img src="/img/lb-sig.png" alt="Signed, Lotus Bloom" height="49px" width="356px" class="img-large">
-        <div class="contact">
-          <p>
-            Contact Info:<br>
-            <a href="#" title="" rel="noreferrer noopener">Info 1</a>
-            <a href="#" title="" rel="noreferrer noopener">Info 2</a>
-            <a href="#" title="" rel="noreferrer noopener">Info 3</a>
-            <a href="#" title="" rel="noreferrer noopener">Info 4</a>
-            <a href="#" title="" rel="noreferrer noopener">Info 5</a>
+      <nav>
+        <a href="/games/index.html">Game Guides</a>
+        <a href="/tutorials/index.html">Software Setup</a>
+      </nav>
+    </header>
+
+    <noscript style="border-bottom: #fff 1px solid;border-left: #6900ff 5px solid; border-right: #6900ff 5px solid; background-color: #000; padding: 5px; font-size: 0.9em;">
+      <p>
+        <em>Warning:</em><br>
+        It would appear Javascript is not available in your browser. Some pages may use a small amount of Javascript to implement collapsable sections, reducing the amount of scrolling needed to navigate the page. You will not be able to view the information contained within these sections without enabling Javascript.
+      </p>
+    </noscript>
+
+    <div id="content">
+      <div id="doc">
+        <div class="doc-title">
+          <h2>Software Setup Guides</h2>
+        </div>
+        <p>
+          As many of you may be familiar with, there's always that one go-to family member that people go to for basic tech support. For my family that person is typically me, and as such I plan to make informational posts on resolving issues, and setting up software, with the hope that I can re-use these articles if someone else has the same issue in the future. Having them online has a couple of benefits; it makes them available from anywhere, and it also allows others to share links to these articles with their own family members.
+        </p>
+        <p>
+          I hope that you find them useful and informative.
+        </p>
+        <h3 id="living">Living Documents</h3>
+        <ul>
+          <li>
+            <a href="debloat-windows.html" title="View Guide 'How to De-Bloat Windows 10 and 11'">How to De-Bloat Windows 10 and 11</a><br>
+            <span class="small">(updated 2024/06/11)</span>
+          </li>
+        </ul>
+        <h3 id="archived">Archived Pages</h3>
+        <ul>
+          <li></li>
+        </ul>
+      </div>
+
+      <!-- REMINDER: UPDATE "LAST EDITED" DATE -->
+      <div id="doc-nav">
+        <div id="doc-info">
+          <p>Document Info:</p>
+          <p class="timestamp">
+            published: 2024/06/11<br>
+            last edited: 2026/10/22
           </p>
         </div>
-      </footer>
+        <div id="doc-toc">
+          <p>Table of Contents</p>
+          <ol>
+            <li><a href="#living">Living Documents</a></li>
+            <li><a href="#archived">Archived Pages</a></li>
+          </ol>
+          <a href="#top"> Back to top</a>
+        </div>
+      </div>
     </div>
-  </body>
+
+    <!-- CONTACT INFORMATION -->
+    <footer>
+      <img src="/img/lb-sig.png" alt="Signed, Lotus Bloom" height="49px" width="356px" class="img-large">
+      <div id="contact">
+        <p>Contact Info:</p>
+        <a href="#" title="" rel="noreferrer noopener">Info 1</a>
+        <a href="#" title="" rel="noreferrer noopener">Info 2</a>
+        <a href="#" title="" rel="noreferrer noopener">Info 3</a>
+        <a href="#" title="" rel="noreferrer noopener">Info 4</a>
+        <a href="#" title="" rel="noreferrer noopener">Info 5</a>
+      </div>
+    </footer>
+  </div>
+</body>
 </html>
