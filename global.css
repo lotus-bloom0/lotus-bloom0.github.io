@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  color: #6933ff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+body {
+  align-items: center;
+  background-color: #150033;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: "DejaVu Sans Mono", monospace;
+  padding: 1em;
+}
+
+footer {
+  align-items: center;
+  border-top: #fff 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.4em;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 1.1em 0;
+}
+
+h2 {
+  font-size: 1.65em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.35em;
+}
+
+h5 {
+  font-size: 1.20em;
+}
+
+h6 {
+  font-size: 1.05em;
+}
+
+header {
+  align-items: center;
+}
+
+hr {
+  margin: 0.15em;
+}
+
+nav {
+  display: flex;
+  border-bottom: #fff 1px solid;
+  border-top: #fff 1px solid;
+  flex-direction: row;
+  gap: 0.5em;
+  padding: 0.2em 0.1em;
+}
+
+nav > a {
+  border: transparent 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.3em;
+}
+
+nav > a:hover {
+  background-color: #555;
+  border: #fff 1px solid;
+}
+
+nav > a:active {
+  background-color: #000;
+  border: #6900ff 1px solid;
+  color: #6900ff;
+}
+
+/* ############### */
+/* ##  CLASSES  ## */
+/* ############### */
+
+ol.short,
+ul.short {
+  columns: 2;
+}
+
+.site {
+  background-color: #222;
+  border: #777 1px solid;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #fff;
+  padding: 0px 10px 10px 10px;
+  max-width: 75em;
+  width: 100%;
+}
+
+/* ############## */
+/* ##   ID's   ## */
+/* ############## */
+
+#contact {
+  font-size: 0.8rem;
+  text-align: right;
+  margin-left: auto;
+}
+
+#contact a {
+  border: transparent 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  padding: 0.4em;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  background-color: #555;
+  border: #fff 1px solid;
+}
+
+#contact a:active {
+  background-color: #000;
+  border: #6900ff 1px solid;
+  color: #6900ff;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+}
+
+#doc {
+  padding: 0.4em;
+  width: 75%;
+}
+
+#doc p {
+  margin: 1em 0;
+}
+
+#doc-info {
+  background-color: #000;
+  border: #fff 1px solid;
+  text-align: center;
+  padding: 0.15em;
+}
+
+#doc-nav {
+  border-left: #fff 1px solid;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  gap: 0.5em;
+  padding: 0.4em;
+  width: 25%;
+}
+
+#doc-toc {
+  position: sticky;
+  top: 3px;
+}
+
+#doc-toc > ol {
+  margin: 0.4em 1.25em;
+  list-style-type: none;
+  padding: 0;
+}
+
+#doc-toc > ol > li {
+  padding: 0 0 0.3em 0;
+}
+
+#header-img {
+  align-items: center;
+  background-image: url(/img/lotus.bloom.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 90%;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+#header-img:hover {
+  background-image: url(/img/lotus.bloom-mo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 90%;
+}
+
+#header-img > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#header-img:hover > a {
+  color: #6900ff;
+}
+
+/* ##################### */
+/* ##   Mobile Mode   ## */
+/* ##################### */
+
+@media (width < 600px) {
+  #doc {
+    width: 100%;
+  }
+  #doc-info {
+    border: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+    margin: 0px;
+    width: 100%;
+  }
+  #doc-nav {
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+  #doc-toc {
+    display: none;
+  }
+  #contact {
+    text-align: center;
+  }
+  #content {
+    flex-direction: column;
+    padding: 0 0 0.25em 0;
+  }
+  footer {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
