@@ -169,6 +169,14 @@ ul.short {
   width: 25%;
 }
 
+#doc-title {
+  border-bottom: #fff 1px solid;
+}
+
+#doc-title p {
+  font-size: 0.8em;
+}
+
 #doc-toc {
   position: sticky;
   top: 3px;
@@ -234,7 +242,7 @@ ul.short {
     display: none;
   }
   #contact {
-    text-align: center;
+    text-align: right;
   }
   #content {
     flex-direction: column;
