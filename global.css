@@ -89,9 +89,22 @@ nav > a:active {
   color: #6900ff;
 }
 
+section {
+  border-bottom: #fff 2px solid;
+  padding-bottom: 4em;
+}
+
+section:last-of-type {
+  border: none;
+}
+
 /* ############### */
 /* ##  CLASSES  ## */
 /* ############### */
+
+.doc-title {
+  border-bottom: #fff 1px solid;
+}
 
 ol.short,
 ul.short {
@@ -148,8 +161,12 @@ ul.short {
   width: 75%;
 }
 
+#doc ol, ul, li {
+  margin: 0.5em 0;
+}
+
 #doc p {
-  margin: 1em 0;
+  margin: 2em 0;
 }
 
 #doc-info {
@@ -169,10 +186,6 @@ ul.short {
   width: 25%;
 }
 
-#doc-title {
-  border-bottom: #fff 1px solid;
-}
-
 #doc-title p {
   font-size: 0.8em;
 }
@@ -182,13 +195,15 @@ ul.short {
   top: 3px;
 }
 
-#doc-toc > ol {
+#doc-toc ol,
+#doc-toc ul {
   margin: 0.4em 1.25em;
   list-style-type: none;
   padding: 0;
 }
 
-#doc-toc > ol > li {
+#doc-toc ol li,
+#doc-toc ul li {
   padding: 0 0 0.3em 0;
 }
 

@@ -1,0 +1,9 @@
+.pinned {
+  float: right;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.post-date {
+  text-align: right;
+}
