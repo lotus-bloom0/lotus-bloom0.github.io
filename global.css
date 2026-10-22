@@ -110,6 +110,14 @@ section:last-of-type {
   font-size: 0.8em;
 }
 
+.img-large {
+  display: block;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
 ol.short,
 ul.short {
   columns: 2;
