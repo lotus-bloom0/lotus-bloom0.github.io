@@ -6,15 +6,18 @@ I use it to host various pages that I’ve made as tutorials or informational wr
 
 ## Site Contents
 
-### Blog Posts, Tutorials, and Write-ups
+### Software Setup Guides
 
 - How To De-Bloat Windows 10 and 11
 
 ### Video Game Bookmarks and Guides
 
-- Final Fantasy XIV Bookmark Collection
-- Pokémon Series Games Bookmark Collection
-- Pokémon Trading Card Game (2000) Guides
-  - Card List
-  - Promo Acquisition Guide
-  - Trainer Information
+- Bookmark Collections
+  - Final Fantasy XIV
+  - Pokémon Series Games
+
+- Game Guides
+  - Pokémon Trading Card Game (2000) Guides
+    - Card List
+    - Promo Acquisition Guide
+    - Trainer Information
