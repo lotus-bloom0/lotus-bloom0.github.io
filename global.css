@@ -247,9 +247,33 @@ span.small {
   color: #6900ff;
 }
 
+#mobile-toc {
+  background-color: #000;
+  border: #fff 1px solid;
+  position: sticky;
+  bottom: 3px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+#mobile-toc *,
+#mobile-toc > p {
+  margin: 2px;
+}
+
+#mobile-toc a {
+  display: inline-block;
+}
+
 /* ##################### */
 /* ##   Mobile Mode   ## */
 /* ##################### */
+
+@media ( width >= 600px ) {
+  #mobile-toc {
+    display: none;
+  }
+}
 
 @media (width < 600px) {
   #doc {
