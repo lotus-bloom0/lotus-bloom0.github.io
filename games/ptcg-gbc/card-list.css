@@ -5,20 +5,8 @@
 table {
   background: #303030;
   border-collapse: collapse;
-  font-size: 0.85rem;
+  font-size: 0.85em;
   width: 100%;
-}
-
-.note {
-  background-color: #101010;
-  border: #fff 1px solid;
-  font-size: 0.8rem;
-  padding: 10px;
-}
-
-.note p {
-  padding: 0;
-  margin: 0;
 }
 
 td,
@@ -41,7 +29,7 @@ tr:nth-of-type(2n) {
   background: rgba(0, 0, 0, 0.2);
 }
 
-@media ( width >= 720px) {
+@media ( width >= 840px) {
   th:nth-of-type(2n),
   td:nth-of-type(2n) {
     border-right: #222 2px solid;
@@ -65,37 +53,57 @@ tr:nth-of-type(2n) {
   }
 }
 
-@media ( width < 860px ) {
-  td:first-child,
+@media ( width >= 600px ) {
+  #mobile-toc {
+    display: none;
+  }
+}
+
+@media ( width < 1100px ) {
+  #doc {
+    width: 80%;
+  }
+  #doc-nav {
+    width: 20%;
+  }
+}
+
+@media ( width < 980px ) {
   td:nth-child(3),
-  th:first-child,
   th:nth-child(3) {
     display: none;
   }
 }
 
-@media ( width < 780px ) {
-  .energy {
-    height: 0.85rem;
-  }
-  table {
-    font-size: 0.75rem;
+@media ( width < 920px ) {
+  td:first-child,
+  th:first-child {
+    display: none;
   }
 }
 
-@media ( width < 720px ) {
+@media ( width < 900px ) {
   .energy {
-    height: 1rem;
+    height: 0.9em;
+  }
+  table {
+    font-size: 0.8em;
+  }
+}
+
+@media ( width < 840px ) {
+  .energy {
+    height: 1em;
   }
   .basic-energy td:empty,
   .trainer td:empty{
     display: none;
   }
-  .note {
+  .tooltip-note {
     display: none;
   }
   table {
-    font-size: 0.9rem;
+    font-size: 0.9em;
   }
   td {
     display: block;
@@ -126,5 +134,37 @@ tr:nth-of-type(2n) {
     display: block;
     font-weight: normal;
     padding: 10px;
+  }
+}
+
+@media (width < 600px) {
+  #doc {
+    width: 100%;
+  }
+  #doc-info {
+    border: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+    margin: 0px;
+    width: 100%;
+  }
+  #doc-nav {
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+  #doc-toc {
+    display: none;
+  }
+  #contact {
+    text-align: right;
+  }
+  #content {
+    flex-direction: column;
+    padding: 0 0 0.25em 0;
+  }
+  footer {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
   }
 }
