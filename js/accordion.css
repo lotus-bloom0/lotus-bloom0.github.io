@@ -1,0 +1,23 @@
+.accordion {
+  background-color: #000;
+  border: #fff 1px solid;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  /*outline: #fff 1px solid;*/
+  padding: 2px 1.25%;
+  text-align: left;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.panel {
+  background-color: #000;
+  border-bottom: #fff 1px solid;
+  border-left: #fff 1px solid;
+  border-right: #fff 1px solid;
+  max-height: 0;
+  overflow: hidden;
+  padding: 2px 1.25%;
+  transition: max-height 0.3s ease-out;
+}
