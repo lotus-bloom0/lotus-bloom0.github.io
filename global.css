@@ -14,11 +14,12 @@ a:hover {
 body {
   align-items: center;
   background-color: #150033;
+  background-image: url(/img/databend-4.JPG);
   color: #fff;
   display: flex;
   flex-direction: column;
   font-family: "DejaVu Sans Mono", monospace;
-  padding: 1em;
+  padding: 1rem;
 }
 
 footer {
@@ -26,31 +27,31 @@ footer {
   border-top: #fff 1px solid;
   display: flex;
   flex-wrap: wrap;
-  padding: 0.4em;
+  padding: 0.4rem;
 }
 
 h2, h3, h4, h5, h6 {
-  margin: 1.1em 0;
+  margin: 1.1rem 0;
 }
 
 h2 {
-  font-size: 1.65em;
+  font-size: 1.65rem;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.35em;
+  font-size: 1.35rem;
 }
 
 h5 {
-  font-size: 1.20em;
+  font-size: 1.20rem;
 }
 
 h6 {
-  font-size: 1.05em;
+  font-size: 1.05rem;
 }
 
 header {
@@ -58,7 +59,7 @@ header {
 }
 
 hr {
-  margin: 0.15em;
+  margin: 0.15rem;
 }
 
 nav {
@@ -66,8 +67,8 @@ nav {
   border-bottom: #fff 1px solid;
   border-top: #fff 1px solid;
   flex-direction: row;
-  gap: 0.5em;
-  padding: 0.2em 0.1em;
+  gap: 0.5rem;
+  padding: 0.2rem 0.1rem;
 }
 
 nav > a {
@@ -75,7 +76,7 @@ nav > a {
   border-radius: 5px;
   color: #fff;
   text-decoration: none;
-  padding: 0.3em;
+  padding: 0.3rem;
 }
 
 nav > a:hover {
@@ -91,12 +92,12 @@ nav > a:active {
 
 section {
   border-bottom: #fff 2px solid;
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
 }
 
 section:last-of-type {
   border: none;
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
 }
 
 /* ############### */
@@ -108,7 +109,7 @@ section:last-of-type {
 }
 
 .doc-title p {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .img-large {
@@ -129,13 +130,13 @@ ul.short {
   border: #777 1px solid;
   border-radius: 10px;
   box-shadow: 0 0 10px #fff;
-  padding: 0px 10px 10px 10px;
-  max-width: 75em;
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
+  max-width: 75rem;
   width: 100%;
 }
 
 span.small {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 /* ############## */
@@ -153,7 +154,7 @@ span.small {
   border-radius: 5px;
   color: #fff;
   display: inline-block;
-  padding: 0.4em;
+  padding: 0.4rem;
   text-decoration: none;
 }
 
@@ -168,38 +169,42 @@ span.small {
   color: #6900ff;
 }
 
+#contact img {
+  height: 0.95rem;
+}
+
 #content {
   display: flex;
   flex-direction: row;
 }
 
 #doc {
-  padding: 0.4em;
+  padding: 0.4rem;
   width: 75%;
 }
 
 #doc ol, ul, li {
-  margin: 0.5em 0;
+  margin: 0.5rem 0;
 }
 
 #doc p {
-  margin: 2em 0;
+  margin: 2rem 0;
 }
 
 #doc-info {
   background-color: #000;
   border: #fff 1px solid;
   text-align: center;
-  padding: 0.15em;
+  padding: 0.15rem;
 }
 
 #doc-nav {
   border-left: #fff 1px solid;
   display: flex;
   flex-direction: column;
-  font-size: 0.8em;
-  gap: 0.5em;
-  padding: 0.4em;
+  font-size: 0.8rem;
+  gap: 0.5rem;
+  padding: 0.4rem;
   width: 25%;
 }
 
@@ -210,14 +215,14 @@ span.small {
 
 #doc-toc ol,
 #doc-toc ul {
-  margin: 0.4em 1.25em;
+  margin: 0.4rem 1.25rem;
   list-style-type: none;
   padding: 0;
 }
 
 #doc-toc ol li,
 #doc-toc ul li {
-  padding: 0 0 0.3em 0;
+  padding: 0 0 0.3rem 0;
 }
 
 #header-img {
@@ -278,14 +283,18 @@ span.small {
 @media (width < 600px) {
   body {
     margin: 0;
-    padding: 0.5em;
+    padding: 0.25rem;
   }
   #contact {
+    font-size: 0.8rem;
     text-align: right;
+  }
+  #contact img {
+    height: 0.85rem;
   }
   #content {
     flex-direction: column;
-    padding: 0 0 0.25em 0;
+    padding: 0 0 0.25rem 0;
   }
   #doc {
     width: 100%;
@@ -312,7 +321,7 @@ span.small {
   .site {
     box-shadow: 0 0 5px #fff;
     margin: 0;
-    padding: 0.25em;
+    padding: 0.25rem;
   }
 }
 
