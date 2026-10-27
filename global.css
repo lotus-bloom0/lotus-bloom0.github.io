@@ -183,12 +183,17 @@ span.small {
   width: 75%;
 }
 
-#doc ol, ul, li {
+#doc ol,  #doc ul {
+  margin: 1.25rem;
+}
+
+#doc ol li,
+#doc ul li {
   margin: 0.5rem 0;
 }
 
 #doc p {
-  margin: 2rem 0;
+  margin: 1.75rem 0;
 }
 
 #doc-info {
