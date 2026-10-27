@@ -183,7 +183,7 @@ span.small {
 }
 
 #doc ol,  #doc ul {
-  margin: 1.25rem;
+  margin: 1.25rem 0;
 }
 
 #doc ol li,
