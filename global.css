@@ -291,11 +291,11 @@ span.small {
     padding: 0.25rem;
   }
   #contact {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     text-align: right;
   }
   #contact img {
-    height: 0.85rem;
+    height: 0.95rem;
   }
   #content {
     flex-direction: column;
