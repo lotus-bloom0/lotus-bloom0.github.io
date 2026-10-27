@@ -91,13 +91,12 @@ nav > a:active {
 }
 
 section {
-  border-bottom: #fff 2px solid;
+  border-top: #fff 2px solid;
   padding-bottom: 2rem;
 }
 
-section:last-of-type {
+section:first-of-type {
   border: none;
-  padding-bottom: 1rem;
 }
 
 /* ############### */
