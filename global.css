@@ -121,8 +121,11 @@ section:first-of-type {
   max-width: 100%;
 }
 
-ol.short,
-ul.short {
+.large-table {
+  width: 100%;
+}
+
+.short {
   columns: 2;
 }
 
@@ -134,6 +137,10 @@ ul.short {
   padding: 0rem 0.5rem 0.5rem 0.5rem;
   max-width: 75rem;
   width: 100%;
+}
+
+.small-table {
+  min-width: 50%;
 }
 
 span.small {

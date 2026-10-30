@@ -1,0 +1,621 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/global.css">
+  <link rel="stylesheet" href="mahjong.css">
+  <link rel="icon" href="/img/favi-white.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riichi Mahjong Cheat Sheets || lotus.bloom</title>
+</head>
+<body>
+  <div class="site">
+    <header>
+      <div id="header-img">
+        <a href="/index.html"><h1>lotus.bloom</h1></a>
+      </div>
+      <nav>
+        <a href="/games/index.html">Game Guides</a>
+        <a href="/tutorials/index.html">Software Setup</a>
+      </nav>
+    </header>
+
+    <noscript style="border-bottom: #fff 1px solid;border-left: #6900ff 5px solid; border-right: #6900ff 5px solid; background-color: #000; padding: 5px; font-size: 0.9em;">
+      <p>
+        <em>Warning:</em><br>
+        It would appear Javascript is not available in your browser. Some pages may use a small amount of Javascript to implement collapsable sections, reducing the amount of scrolling needed to navigate the page. You will not be able to view the information contained within these sections without enabling Javascript.
+      </p>
+    </noscript>
+
+    <div id="content">
+      <div id="doc">
+        <div class="doc-title">
+          <h2>Riichi Mahjong Cheat Sheet</h2>
+          <p>‘Riichi’ this, ‘Mahjong’ that. Why don't you Riichi down here and grab Mah-jong.</p>
+        </div>
+
+        <section class="scoring-info">
+          <section id="fu-calculation">
+          <h3>Mini-Points (Fu) Calculation</h3>
+          <p>All hands start with a base of 20 fu. Each additional source of fu is added to the total, then the value is rounded up to the nearest 10.</p>
+          <section>
+            <h4>Triplets / Quads</h4>
+            <table class="small-table">
+              <tbody>
+                <tr>
+                  <th>Type</th>
+                  <th>Simples</th>
+                  <th>Terminals / Honors</th>
+                </tr>
+                <tr>
+                  <td>Open Triplet<br>(Minkou)</td>
+                  <td>2 fu</td>
+                  <td>4 fu</td>
+                </tr>
+                <tr>
+                  <td>Closed Triplet<br>(Ankou)</td>
+                  <td>4 fu</td>
+                  <td>8 fu</td>
+                </tr>
+                <tr>
+                  <td>Open Kan<br>(Minkan)</td>
+                  <td>8 fu</td>
+                  <td>16 fu</td>
+                </tr>
+                <tr>
+                  <td>Closed Kan<br>(Ankan)</td>
+                  <td>16 fu</td>
+                  <td>32 fu</td>
+                </tr>
+              </tbody>
+            </table>
+            <p>A tip for memorization:</p>
+            <ul>
+              <li>Each triplet is worth 4 fu; halved if open, and doubled if a terminal/honor.</li>
+              <li>Each kan is worth 16 fu; halved if open, and doubled if a terminal/honor.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>Waits</h4>
+            <p>Each of the the five basic wait patterns are worth a certain amount of fu.</p>
+            <table class="small-table">
+              <tbody>
+                <tr>
+                  <th>Type</th>
+                  <th>Value</th>
+                  <th></th>
+                  <th>Example</th>
+                </tr>
+                <tr>
+                  <td>Open Wait<br>(Ryanmen)</td>
+                  <td>0 fu</td>
+                  <td></td>
+                  <td>
+                    <img src="img/Tile-3p.png" alt="3p"><img src="img/Tile-4p.png" alt="34p">
+                    <span style="display: inline-block;"><span class="left-pad">waits: </span><img src="img/Tile-2p.png" alt="2p"> <img src="img/Tile-5p.png" alt="5p"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Dual Pair Wait<br>(Shanpon)</td>
+                  <td>0 fu</td>
+                  <td></td>
+                  <td>
+                    <img src="img/Tile-2m.png" alt="2m"><img src="img/Tile-2m.png" alt="2m"><img src="img/Tile-1s.png" alt="1s"><img src="img/Tile-1s.png" alt="1s">
+                    <span style="display: inline-block;"><span class="left-pad">waits: </span><img src="img/Tile-2m.png" alt="2m"> <img src="img/Tile-1s.png" alt="1s"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Closed Wait<br>(Kanchan)</td>
+                  <td>2 fu</td>
+                  <td></td>
+                  <td>
+                    <img src="img/Tile-5s.png" alt="5s"><img src="img/Tile-7s.png" alt="7s">
+                    <span style="display: inline-block;"><span class="left-pad">waits: </span><img src="img/Tile-6s.png" alt="6s"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Edge Wait<br>(Penchan)</td>
+                  <td>2 fu</td>
+                  <td></td>
+                  <td>
+                    <img src="img/Tile-8m.png" alt="8m"><img src="img/Tile-9m.png" alt="9m">
+                    <span style="display: inline-block;"><span class="left-pad">waits: </span><img src="img/Tile-7m.png" alt="7m"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Pair Wait<br>(Tanki)</td>
+                  <td>2 fu</td>
+                  <td></td>
+                  <td>
+                    <img src="img/Tile-1z.png" alt="east">
+                    <span class="left-pad">waits: </span><img src="img/Tile-1z.png" alt="east">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>Complex waits are always comprised of multiple different basic waits, and will be scored as a basic wait upon winning.</p>
+            <p>When a hand can be interpreted in multiple ways the interpretation that scores the most points is used.</p>
+          </section>
+          <section>
+            <h4>The Pair/Head</h4>
+            <p>If the hand's pair would score a yaku as a triplet, then it scores 2 fu.</p>
+            <p>If the pair is both the round win and the seat wind, then it may score 2 fu or 4 fu, depending on the rules used.</p>
+          </section>
+          <section>
+            <h4>Win Condition</h4>
+            <p>Winning by Ron with a closed hand scores 10fu.</p>
+            <p>A win by tsumo, whether open or closed, is worth 2 fu. There are only two notable exceptions:</p>
+            <ul>
+              <li>If the hand qualifies for pinfu, these 2 fu are waived.</li>
+              <li>In a few scoring variations, a win by dead wall draw is also ineligible for the +2 fu from tsumo.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>Special Cases</h4>
+            <ul>
+              <li>Seven Pairs hands are always fixed at 25 fu.</li>
+              <li>If an open hand has no other fu (is at 20 fu), it is set to 30 fu.</li>
+            </ul>
+          </section>
+
+          <section id="standard-score-tables">
+            <h3>Standard Scoring Table</h3>
+            <!-- Standard Dealer -->
+            <div class="table-container">
+              <table class="large-table">
+                <thead><h4>Dealer Wins</h4></thead>
+                <tbody>
+                  <tr>
+                    <td>Han / Fu</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>80</td>
+                    <td>90</td>
+                    <td>100</td>
+                    <td>110</td>
+                  </tr>
+                  <tr>
+                    <td>1 Han</td>
+                    <td>400<sup><a href="#4p-sup">1</a></sup><br>—</td>
+                    <td>—<br>—</td>
+                    <td>500<br>1500</td>
+                    <td>700<br>2000</td>
+                    <td>800<br>2400</td>
+                    <td>1000<br>2900</td>
+                    <td>1200<br>3400</td>
+                    <td>1300<br>3900</td>
+                    <td>1500<br>4400</td>
+                    <td>1600<br>4800</td>
+                    <td>1800<br>5300</td>
+                  </tr>
+                  <tr>
+                    <td>2 Han</td>
+                    <td>700<br>—</td>
+                    <td>—<br>2400</td>
+                    <td>1000<br>2900</td>
+                    <td>1300<br>3900</td>
+                    <td>1600<br>4800</td>
+                    <td>2000<br>5800</td>
+                    <td>2300<br>6800</td>
+                    <td>2600<br>7700</td>
+                    <td>2900<br>8700</td>
+                    <td>3200<br>9600</td>
+                    <td>3600<br>10600</td>
+                  </tr>
+                  <tr>
+                    <td>3 Han</td>
+                    <td>1300<br>—</td>
+                    <td>1600<br>4800</td>
+                    <td>2000<br>5800</td>
+                    <td>2600<br>7700</td>
+                    <td>3200<br>9600</td>
+                    <td>3900<sup><a href="#4p-sup">2</a></sup><br>11600<sup><a href="#4p-sup">2</a></sup></td>
+                    <td colspan="5">4000<br>12000</td>
+                  </tr>
+                  <tr>
+                    <td>4 Han</td>
+                    <td>2600<br>—</td>
+                    <td>3200<br>9600</td>
+                    <td>3900<sup><a href="#4p-sup">2</a></sup><br>11600<sup><a href="#4p-sup">2</a></sup></td>
+                    <td colspan="8">4000<br>12000</td>
+                  </tr>
+                  <tr>
+                    <td>5 Han<br>(Mangan)</td>
+                    <td colspan="11">4000<br>12000</td>
+                  </tr>
+                  <tr>
+                    <td>6,7 Han<br>(Haneman)</td>
+                    <td colspan="11">6000<br>18000</td>
+                  </tr>
+                  <tr>
+                    <td>8,9,10 Han<br>(Baiman)</td>
+                    <td colspan="11">8000<br>24000</td>
+                  </tr>
+                  <tr>
+                    <td>11,12 Han<br>(Sanbaiman)</td>
+                    <td colspan="11">12000<br>36000</td>
+                  </tr>
+                  <tr>
+                    <td>13+ Han<br>(Yakuman)</td>
+                    <td colspan="11">16000<br>48000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Standard Non-Dealer -->
+            <div class="table-container">
+              <table class="large-table">
+                <thead><h4>Non-Dealer Wins</h4></thead>
+                <tbody>
+                  <tr>
+                    <td>Han / Fu</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>80</td>
+                    <td>90</td>
+                    <td>100</td>
+                    <td>110</td>
+                  </tr>
+                  <tr>
+                    <td>1 Han</td>
+                    <td>200/400<sup><a href="#4p-sup">1</a></sup><br>—</td>
+                    <td>—<br>1600</td>
+                    <td>300/500<br>1000</td>
+                    <td>400/700<br>1300</td>
+                    <td>400/800<br>1600</td>
+                    <td>500/1000<br>2000</td>
+                    <td>600/1200<br>2300</td>
+                    <td>700/1300<br>2600</td>
+                    <td>800/1500<br>2900</td>
+                    <td>800/1600<br>3200</td>
+                    <td>900/1800<br>3600</td>
+                  </tr>
+                  <tr>
+                    <td>2 Han</td>
+                    <td>400/700<br>—</td>
+                    <td>—<br>1600</td>
+                    <td>500/1000<br>2000</td>
+                    <td>700/1300<br>2600</td>
+                    <td>800/1600<br>3200</td>
+                    <td>1000/2000<br>3900</td>
+                    <td>1200/2300<br>4500</td>
+                    <td>1300/2600<br>5200</td>
+                    <td>1500/2900<br>5800</td>
+                    <td>1600/3200<br>6400</td>
+                    <td>1800/3600<br>7100</td>
+                  </tr>
+                  <tr>
+                    <td>3 Han</td>
+                    <td>700/1300<br>—</td>
+                    <td>800/1600<br>3200</td>
+                    <td>1000/2000<br>3900</td>
+                    <td>1300/2600<br>5200</td>
+                    <td>1600/3200<br>6400</td>
+                    <td>2000/3900<sup><a href="#4p-sup">2</a></sup><br>7700<sup><a href="#4p-sup">2</a></sup></td>
+                    <td colspan="5">2000/4000<br>8000</td>
+                  </tr>
+                  <tr>
+                    <td>4 Han</td>
+                    <td>1300/2600<br>—</td>
+                    <td>1600/3200<br>6400</td>
+                    <td>2000/3900<sup><a href="#4p-sup">2</a></sup><br>7700<sup><a href="#4p-sup">2</a></sup></td>
+                    <td colspan="8">2000/4000<br>8000</td>
+                  </tr>
+                  <tr>
+                    <td>5 Han<br>(Mangan)</td>
+                    <td colspan="11">2000/4000<br>8000</td>
+                  </tr>
+                  <tr>
+                    <td>6,7 Han<br>(Haneman)</td>
+                    <td colspan="11">3000/6000<br>12000</td>
+                  </tr>
+                  <tr>
+                    <td>8,9,10 Han<br>(Baiman)</td>
+                    <td colspan="11">4000/8000<br>16000</td>
+                  </tr>
+                  <tr>
+                    <td>11,12 Han<br>(Sanbaiman)</td>
+                    <td colspan="11">6000/12000<br>24000</td>
+                  </tr>
+                  <tr>
+                    <td>13+ Han<br>(Yakuman)</td>
+                    <td colspan="11">8000/16000<br>32000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p id="4p-sup">
+              <span class="small"><sup>1</sup> This score is only possible when a penalty is imposed for integrating the winning tile into the hand before declaring tsumo.</span><br>
+              <span class="small"><sup>2</sup> If rounded (kiriage) mangan rule is used, score as a mangan.</span>
+            </p>
+          </section>
+
+          <section id="3p-score-tables">
+            <h3>Three-Player (Sanma) Scoring Table <span class="small">(without Tsumo-loss)</span></h3>
+            <p>In some groups, an alternate scoring table may be used when playing three-player mahjong. This alternate scoring table prevents the value of a win by tsumo from bring worth less than a typical win by ron.</p>
+            <!-- 3P Dealer w/o Tsumo-loss -->
+            <div class="table-container">
+              <table class="large-table">
+                <thead><h4>Dealer Wins</h4></thead>
+                <p>The tsumo values are half of the ron values, rounded up to the nearest hundred points.</p>
+                <tbody>
+                  <tr>
+                    <td>Han / Fu</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>80</td>
+                    <td>90</td>
+                    <td>100</td>
+                    <td>110</td>
+                  </tr>
+                  <tr>
+                    <td>1 Han</td>
+                    <td>500<sup><a href="#3p-sup">1</a></sup><br>—</td>
+                    <td>—<br>—</td>
+                    <td>800<br>1500</td>
+                    <td>1000<br>2000</td>
+                    <td>1200<br>2400</td>
+                    <td>1500<br>2900</td>
+                    <td>1700<br>3400</td>
+                    <td>2000<br>3900</td>
+                    <td>2200<br>4400</td>
+                    <td>2400<br>4800</td>
+                    <td>2700<br>5300</td>
+                  </tr>
+                  <tr>
+                    <td>2 Han</td>
+                    <td>1000<br>—</td>
+                    <td>—<br>2400</td>
+                    <td>1500<br>2900</td>
+                    <td>2000<br>3900</td>
+                    <td>2400<br>4800</td>
+                    <td>2900<br>5800</td>
+                    <td>3400<br>6800</td>
+                    <td>3900<br>7700</td>
+                    <td>4400<br>8700</td>
+                    <td>4800<br>9600</td>
+                    <td>5300<br>10600</td>
+                  </tr>
+                  <tr>
+                    <td>3 Han</td>
+                    <td>2000<br>—</td>
+                    <td>2400<br>4800</td>
+                    <td>2900<br>5800</td>
+                    <td>3900<br>7700</td>
+                    <td>4800<br>9600</td>
+                    <td>5800<sup><a href="#3p-sup">2</a></sup><br>11600<sup><a href="#3p-sup">2</a></sup></td>
+                    <td colspan="5">6000<br>12000</td>
+                  </tr>
+                  <tr>
+                    <td>4 Han</td>
+                    <td>3900<br>—</td>
+                    <td>4800<br>9600</td>
+                    <td>5800<sup><a href="#3p-sup">2</a></sup><br>11600<sup><a href="#3p-sup">2</a></sup></td>
+                    <td colspan="8">6000<br>12000</td>
+                  </tr>
+                  <tr>
+                    <td>5 Han<br>(Mangan)</td>
+                    <td colspan="11">6000<br>12000</td>
+                  </tr>
+                  <tr>
+                    <td>6,7 Han<br>(Haneman)</td>
+                    <td colspan="11">9000<br>18000</td>
+                  </tr>
+                  <tr>
+                    <td>8,9,10 Han<br>(Baiman)</td>
+                    <td colspan="11">12000<br>24000</td>
+                  </tr>
+                  <tr>
+                    <td>11,12 Han<br>(Sanbaiman)</td>
+                    <td colspan="11">18000<br>36000</td>
+                  </tr>
+                  <tr>
+                    <td>13+ Han<br>(Yakuman)</td>
+                    <td colspan="11">24000<br>48000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- 3P Non-Dealer w/o Tsumo-loss -->
+            <div class="table-container">
+              <table class="large-table">
+                <thead><h4>Non-Dealer Wins</h4></thead>
+                <p>The ron values are equal to the sum of the dealer and non-dealer tsumo values. Due to the way the missing player's payment is divided between the other two players, the non-dealer pays around three-fifths as much as the dealer, rather than half as much as in normal scoring rules.</p>
+                <tbody>
+                  <tr>
+                    <td>Han / Fu</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>80</td>
+                    <td>90</td>
+                    <td>100</td>
+                    <td>110</td>
+                  </tr>
+                  <tr>
+                    <td>1 Han</td>
+                    <td>300/400<sup><a href="#3p-sup">1</a></sup><br>—</td>
+                    <td>—<br>—</td>
+                    <td>400/600<br>1000</td>
+                    <td>500/800<br>1300</td>
+                    <td>600/1000<br>1600</td>
+                    <td>800/1200<br>2000</td>
+                    <td>900/1400<br>2300</td>
+                    <td>1000/1600<br>2600</td>
+                    <td>1100/1800<br>2900</td>
+                    <td>1200/2000<br>3200</td>
+                    <td>1400/2200<br>3600</td>
+                  </tr>
+                  <tr>
+                    <td>2 Han</td>
+                    <td>500/800<br>—</td>
+                    <td>—<br>1600</td>
+                    <td>800/1200<br>2000</td>
+                    <td>1000/1600<br>2600</td>
+                    <td>1200/2000<br>3200</td>
+                    <td>1500/2400<br>3900</td>
+                    <td>1700/2800<br>4500</td>
+                    <td>2000/3200<br>5200</td>
+                    <td>2200/3600<br>5800</td>
+                    <td>2400/4000<br>6400</td>
+                    <td>2700/4400<br>7100</td>
+                  </tr>
+                  <tr>
+                    <td>3 Han</td>
+                    <td>1000/1600<br>—</td>
+                    <td>1200/2000<br>3200</td>
+                    <td>1500/2400<br>3900</td>
+                    <td>2000/3200<br>5200</td>
+                    <td>2400/4000<br>6400</td>
+                    <td>2900/4800<sup><a href="#3p-sup">2</a></sup><br>7700<sup><a href="#3p-sup">2</a></sup></td>
+                    <td colspan="5">3000/5000<br>8000</td>
+                  </tr>
+                  <tr>
+                    <td>4 Han</td>
+                    <td>2000/3200<br>—</td>
+                    <td>2400/4000<br>6400</td>
+                    <td>2900/4800<sup><a href="#3p-sup">2</a></sup><br>7700<sup><a href="#3p-sup">2</a></sup></td>
+                    <td colspan="8">3000/5000<br>8000</td>
+                  </tr>
+                  <tr>
+                    <td>5 Han<br>(Mangan)</td>
+                    <td colspan="11">3000/5000<br>8000</td>
+                  </tr>
+                  <tr>
+                    <td>6,7 Han<br>(Haneman)</td>
+                    <td colspan="11">4500/7500<br>12000</td>
+                  </tr>
+                  <tr>
+                    <td>8,9,10 Han<br>(Baiman)</td>
+                    <td colspan="11">6000/10000<br>16000</td>
+                  </tr>
+                  <tr>
+                    <td>11,12 Han<br>(Sanbaiman)</td>
+                    <td colspan="11">9000/15000<br>24000</td>
+                  </tr>
+                  <tr>
+                    <td>13+ Han<br>(Yakuman)</td>
+                    <td colspan="11">12000/20000<br>32000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p id="3p-sup">
+              <span class="small"><sup>1</sup> This score is only possible when a penalty is imposed for integrating the winning tile into the hand before declaring tsumo.</span><br>
+              <span class="small"><sup>2</sup> If rounded (kiriage) mangan rule is used, score as a mangan.</span>
+            </p>
+          </section>
+        </section>
+
+        <section id="kanji-helper">
+          <h3>Kanji Helper <span class="small">(No 日本語, no problem.)</span></h3>
+          <h4>Characters/Cracks Tiles (Manzu)</h4>
+          <ol class="short" style="font-family: Noto Serif CJK JP; font-size: 1.15em;">
+            <li>一</li>
+            <li>二</li>
+            <li>三</li>
+            <li>四</li>
+            <li>五</li>
+            <li>六</li>
+            <li>七</li>
+            <li>八</li>
+            <li>九</li>
+          </ol>
+          <h4>Honor Tiles</h4>
+          <h5>Dragon Tiles</h5>
+          <ul class="short" style="font-family: Noto Serif CJK JP; font-size: 1.15em;">
+            <li>發　-　Green Dragon</li>
+            <li>中　-　Red Dragon</li>
+          </ul>
+          <p>The White Dragon in Japanese mahjong sets is typically depicted using a blank tile. In Chinese-style sets, it is more frequently depicted as a blue or black border around nothing.</p>
+          <h5>Wind Tiles</h5>
+          <ul class="short" style="font-family: Noto Serif CJK JP; font-size: 1.15em;">
+            <li>東　-　East</li>
+            <li>南　-　South</li>
+            <li>西　-　West</li>
+            <li>北　-　North</li>
+          </ul>
+        </section>
+
+        <section id="credits">
+          <h3>Credits</h3>
+          <p>
+            Most of the information on this page was lifted from various articles on <a href="https://riichi.wiki/" title="Visit the Riichi Mahjong Wiki at riichi.wiki" rel="noreferrer noopener">Riichi.wiki</a> with minimal edits, and compiled here to create a digital cheat sheet to reference.
+          </p>
+          <p>
+            As such, all content on this page is available under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noreferrer noopener">Creative Commons Attribution-NonCommercial-ShareAlike</a>.
+          </p>
+        </section>
+
+        <!-- MOBILE MODE TOC -->
+        <div id="mobile-toc">
+          <p>Table of Contents</p>
+            <a href="#fu-calculation">Fu Calculation</a>
+            <a href="#standard-score-tables">Standard Score Tables</a>
+            <a href="#3p-score-tables">Sanma Score Tables</a>
+            <a href="#kanji-helper">Kanji Helper</a>
+            <a href="#credits">Credits</a>
+          <a href="#top"> Back to top</a>
+        </div>
+      </div>
+
+      <!-- REMINDER: UPDATE "LAST EDITED" DATE -->
+      <div id="doc-nav">
+        <div id="doc-info">
+          <p>Document Info:</p>
+          <p class="timestamp">
+            published: 2026/10/30<br>
+            <!-- last edited: YYYY/MM/DD -->
+          </p>
+          <hr>
+          <p id="doc-download">
+            Downloads:
+            <a href="docs/index.html" download>ALL</a>
+          </p>
+        </div>
+        <div id="doc-toc">
+          <p>Table of Contents</p>
+          <ol>
+            <li><a href="#fu-calculation">Fu Calculation</a></li>
+            <li><a href="#standard-score-tables">Standard Score Tables</a></li>
+            <li><a href="#3p-score-tables">Sanma (3P) Score Tables</a></li>
+            <li><a href="#kanji-helper">Kanji Helper</a></li>
+            <li><a href="#credits">Credits</a></li>
+          </ol>
+          <a href="#top"> Back to top</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT INFORMATION -->
+    <footer>
+      <img src="/img/lb-sig.png" alt="Signed, Lotus Bloom" height="49px" width="356px" class="img-large">
+      <div id="contact">
+        <p>Contact Info:</p>
+        <a href="https://bsky.app/profile/lotusbloom.bsky.social" title="Contact me on Bluesky" rel="noreferrer noopener"><img src="/img/socials-icons/bluesky/svg/bluesky_media_kit_wordmark_transparent_3.svg" alt="Contact me on Bluesky"></a>
+        <a href="https://signal.group/#CjQKII5LF5zkSFMNOEEAvzsuJWjZLhQ3t1OkVKKlsOVuxp1AEhAX0UUyyPSnbEVT5o5zw03p" title="Signal group invitation" rel="noreferrer noopener"><img src="/img/socials-icons/signal/Logo+Wordmark/SVG/Signal-Lockup-White.svg" alt="Contact me on Signal"></a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

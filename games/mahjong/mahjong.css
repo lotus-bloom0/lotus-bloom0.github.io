@@ -1,0 +1,33 @@
+table {
+  background: #000;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+table a {
+  color: #fff;
+}
+
+td,
+th {
+  border: 1px #fff solid;
+  padding: 0.35em;
+  text-align: center;
+}
+
+.large-table td:first-of-type,
+.large-table tr:first-of-type {
+  font-weight: bold;
+}
+
+.left-pad {
+  margin-left: 15px;
+}
+
+.scoring-info > section > section{
+  border: 0;
+}
+
+.table-container {
+  overflow-x:auto;
+}
